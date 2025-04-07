@@ -1,0 +1,15 @@
+[package]
+name = "xostrait"
+version = "0.1.0"
+edition = "2021"
+description = "A procedural macro crate for enforcing OS-specific trait implementations"
+repository = "https://github.com/kchoudhu/xostrait"
+license = "MIT OR Apache-2.0" # Choose your license
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0"
+quote = "1.0"
+syn = { version = "2.0", features = ["full"] }
